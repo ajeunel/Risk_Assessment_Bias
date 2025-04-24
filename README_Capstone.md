@@ -42,11 +42,7 @@ The notebook is organized by the following sections:
 - Predicts binary high-risk outcome
 - Includes cross-validation and regularization
 
-### 🤝 K-Nearest Neighbors (KNN)
-- Distance-based classification model
 
-### 🌲 Random Forest Regression
-- Tree-based ensemble model for robustness
 
 ### ✅ Model Evaluation & Interpretation
 - Accuracy, ROC AUC, F1-score, precision/recall
