@@ -3,7 +3,7 @@
 Graduate Capstone Final Github
 
 
-This project explores the use of supervised machine learning models to predict VI-SPDAT assessment scores based on wellness and demographic data, The initial scope of the project sought to uncover biases in VI-SPDAT scores, but the model's performance was not much better than chance. This project has become a defining part of my graduate school experience, and I hope that it leads to data and its ability to improve the real world. 
+This project explores the use of supervised machine learning models to predict VI-SPDAT assessment scores and housing outcomes based on wellness and demographic data,  This project has become a defining part of my graduate school experience, and I hope that it leads to data and its ability to improve the real world. 
 
 ---
 
@@ -27,9 +27,8 @@ This capstone project investigates:
 ---
 
 ## Notes
-- This codebook is far from perfect, and serves as an exploration on testing different ML models. Human-centered data is difficult to use, but its analysis can reveal truths that may save lives.
-- CSV files are uploaded to show each step of the process.
-- The Python codebook contains use of the y_coef for a model that was being trained. This information was used to test the sample size against the whole group and to plot predicted vs. acutal rates of housing placement. With an AUC = 0.605, the model did not sufficiently predict beyond happenstance, so it was not used in the analysis and will not have a corresponding .csv file. 
+
+- CSV files are uploaded to show each step of the process
 
 ---
 
