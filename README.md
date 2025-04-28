@@ -1,7 +1,5 @@
 
 # 📊 Examining Bias in the VI-SPDAT: Machine Learning, Housing Placement, and Systemic Intervention
-
-Ajeune R. Lynch
 Graduate Capstone Final Github
 
 
@@ -10,10 +8,7 @@ This project explores the use of supervised machine learning models to predict V
 ---
 
 ## 📁 Files
-
-- `Organized_Feature_Engineering_Capstone.ipynb` — Main notebook containing all steps from preprocessing to model evaluation and fairness auditing.
-- `Clean_data_for_model.csv` — Pre-cleaned dataset used in modeling (not included here, upload to Colab).
-
+TBA
 ---
 
 ## 📌 Project Overview
