@@ -1,7 +1,11 @@
 
-# 📊 VI-SPDAT Score Prediction Capstone
+# 📊 Examining Bias in the VI-SPDAT: Machine Learning, Housing Placement, and Systemic Intervention
 
-This project explores the use of supervised machine learning models to predict VI-SPDAT assessment scores based on wellness and demographic data, with a focus on fairness and interpretability.
+Ajeune R. Lynch
+Graduate Capstone Final Github
+
+
+This project explores the use of supervised machine learning models to predict VI-SPDAT assessment scores based on wellness and demographic data, The initial scope of the project sought to uncover biases in VI-SPDAT scores, but the model's performance was not much better than chance. This project has become a defining part of my graduate school experience, and I hope that it leads to data and its ability to improve the real world. 
 
 ---
 
@@ -16,57 +20,19 @@ This project explores the use of supervised machine learning models to predict V
 
 This capstone project investigates:
 - How accurately VI-SPDAT scores can be predicted using wellness subscores and demographic data.
-- Whether race and gender impact predictions when controlling for need.
-- What differences in predictions reveal about fairness and potential bias.
+- Housing placement outcomes by race,gender and age 
+- Los Angeles's County's targeted efforts at reducing homelessness for its Black residents
 
 ---
 
-## 🧱 Notebook Structure
-
-The notebook is organized by the following sections:
-
-### 🧹 Data Preprocessing & Cleaning
-- Removes irrelevant columns
-- Handles missing data
-- Creates a binary high-risk label
-
-### 🧪 Feature Engineering
-- One-hot encoding of race, gender, and age group
-- Feature scaling with StandardScaler
-
-### 📈 Polynomial Regression
-- Uses PolynomialFeatures to model non-linear relationships
-- Evaluates model using RMSE, MAE, and R²
-
-### 🔍 Logistic Regression
-- Predicts binary high-risk outcome
-- Includes cross-validation and regularization
-
-
-
-### ✅ Model Evaluation & Interpretation
-- Accuracy, ROC AUC, F1-score, precision/recall
-- Confusion matrix
-
-### ⚖️ Fairness & Bias Testing
-- Simulates predictions across demographic groups
-- Audits fairness using randomized wellness profiles
-
-### 🧠 Variable Importance & Interpretability
-- Logistic regression coefficients reveal feature influence
-
----
-
-## 🚀 How to Use
-
-1. Upload `Clean_data_for_model.csv` to Colab.
-2. Run all cells in the notebook.
-3. Modify and test additional models as needed.
-4. Use the final visualizations and outputs in your presentation.
+## Notes
+- This codebook is far from perfect, and serves as an exploration on testing different ML models. Human-centered data is difficult to use, but its analysis can reveal truths that may save lives.
+- CSV files are uploaded to show each step of the process.
+- The Python codebook contains use of the y_coef for a model that was being trained. This information was used to test the sample size against the whole group and to plot predicted vs. acutal rates of housing placement. With an AUC = 0.605, the model did not sufficiently predict beyond happenstance, so it was not used in the analysis and will not have a corresponding .csv file. 
 
 ---
 
 ## 💬 Credits
 
-Created as part of a master's capstone project on ethical machine learning for human services assessment tools.
+Created as part of a Master's capstone project on ethical machine learning for human services assessment tools.
 
