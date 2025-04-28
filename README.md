@@ -10,6 +10,7 @@ This project explores the use of supervised machine learning models to predict V
 ## 📁 Data Viz Link:
 An accompanying data vizualization that explores the VI-SPDAT and LA's homelessness profile. 
 [https://github.com/ajeunel](https://public.tableau.com/app/profile/ajeune.lynch/viz/Capstone_Tableau_17458003946070/Dashboard1)
+
 If the link in the Tableau Public dashboard is has issues, please view the articles here: 
 
 https://themarkup.org/show-your-work/2023/02/28/how-we-investigated-l-a-s-homelessness-scoring-system
